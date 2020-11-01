@@ -1,0 +1,68 @@
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.box1{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    position: relative;
+    float: left;
+    transition: all 2s ease-in-out;
+    z-index: 1;
+
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: blue;
+    transition: all 2s ease-in-out;
+    z-index: 1;
+}
+
+img{
+    width: 300px;
+    position: absolute;
+    display: block;
+    margin-left: 800px;
+    margin-top: 130px;
+    z-index: 2;
+    transition: transform 40s
+}
+
+img:hover {
+    transform: rotate(3600deg);
+}
+
+.m{
+    margin-left:10px;
+    font-weight: bolder;
+}
+.tenet{
+              
+  font-size: 500px;
+   display: block;
+   text-align: center;
+   margin-top: 92px;
+   font-weight: bold;
+   
+
+
+}
+
+.tenet1{
+    font-size: 500px;
+    display: block;
+    text-align: center;
+    margin-top: 177px;
+    font-weight: bold;
+    -webkit-transform: rotateX(180deg);
+    
+}
+
+
